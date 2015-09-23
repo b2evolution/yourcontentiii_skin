@@ -1,0 +1,269 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 8pt;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+	color: #ffffff;
+	background-color: #252525;
+}
+#header {
+	background:url(images/background_header.gif) no-repeat left #700000;
+	height: 70px;
+	color: #ffffff;
+}
+#title {
+	float: left;
+	margin: 6px 0px 0px 20px;
+}
+#topright {
+	float: right;
+	margin: 10px 20px 0px 0px;
+}
+#search {
+	text-align: right;
+}
+.search {
+	margin-bottom: 5px;
+}
+#navtop {
+	padding-bottom: 10px;
+	font-size: 9pt;
+}
+#navtop ul li {
+	list-style: none;
+	display: inline;
+}
+#navtop li {
+	padding-left: 10px;
+}
+#navigation {
+	font-size: 9pt;
+	background: url(images/background_nav.gif) repeat-x;
+	clear: both;
+	height: 25px;
+	padding: 5px 0px 0px 20px;
+}
+#navigation ul li {
+	display: inline;
+	list-style: none;
+}
+#navigation li {
+	padding-right: 20px;
+}
+
+#content {
+	margin: 5px 230px 0px 0px;
+	padding: 30px 20px 0px 30px;
+	background: url(images/background_content.gif) right no-repeat top;
+}
+#sidebar {
+	float: right;
+	width: 180px;
+	margin-top: 5px;
+	padding: 30px 30px 2px 0px;
+}
+#footer {
+	clear: both;
+	padding: 30px;
+	color: #999999;
+}
+#footer a {
+	color: #999999;
+	text-decoration: none;
+}
+/* fonts */
+#title h1 {
+	font-size: 20pt;
+	font-weight: normal;
+}
+#title h1 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.description {
+	font-size: 10pt;
+}
+#navigation li a {
+	color: #999999;
+	text-decoration: none;
+}
+#navigation li a:hover {
+	color: #ffffff;
+}
+#content h1 {
+	font-size: 14pt;
+	font-weight: normal;
+}
+#content h1 a {
+	font-weight: normal;
+	text-decoration: none;
+	color: #ffffff;
+}
+#content h1 a:hover {
+	color: #790000;
+}
+p, #content h1, #content h2, #sidebar ul, #content h3 {
+	padding-bottom: 10px;
+}
+#sidebar h2, h4 {
+	padding-bottom: 5px;
+}
+#sidebar h2 {
+	font-size: 10pt;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 11pt;
+}
+h4 {
+	font-size: 10pt;
+}
+h4 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#sidebar a {
+	text-decoration: none;
+	color: #CCCCCC;
+	font-weight: normal;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+}
+#content ul li, #content ol li {
+	margin-left: 25px;
+}
+a:hover {
+	color: #b7b7b7;
+}
+blockquote {
+	padding: 5px;
+	border: 1px solid #111111;
+	margin: 10px 20px;
+}
+#sidebar ul li {
+	list-style: none;
+}
+/* default */
+.postmetadata {
+	padding: 5px;
+	background-color: #1f1f1f;
+	margin: 20px 0px;
+	color: #b7b7b7;
+}
+.postmetadata a {
+	color: #b7b7b7;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.postmetadata a:hover {
+	color: #b7b7b7;
+	text-decoration: none;
+	font-weight: normal;
+}
+.post {
+	margin: 0px 20px;
+}
+.entry {
+	margin: 0px 10px;
+}
+
+.navigation a {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.navigation a:hover {
+	text-decoration: none;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+#date {
+	padding-bottom: 5px;
+	color: #CCCCCC;
+
+}
+#date a {
+	color: #CCCCCC;
+	text-decoration: none;
+	font-weight: normal;
+}
+.comment {
+	padding: 10px 0px;
+}
+.powered_by {
+	padding-top: 10px;
+}
+/* form */
+.form_text_input, .SearchField, #author, #email, #url, #comment  {
+	border: 1px solid #666666; 
+	padding: 5px;
+	font-size: 8pt;
+	background-color: #252525;
+	color: #ffffff;
+}
+#submit, .searchsubmit, .submit, .preview {
+	background-color: #700000;
+	color: #ffffff;
+	border: 1px solid #666666; 
+	font-size: 8pt;
+	padding: 2px;
+}
+fieldset {
+	border: 0px;
+}
+/* ---------------------------------------------------------- */
+#evo_toolbar ul li,
+#evo_toolbar ol li {
+   margin-left: 0;
+}
+
+.sitewide_header {
+	margin-bottom: 0px !important;
+	z-index: 1000;
+	position: relative;
+}
+#skin_wrapper {
+	z-index: -1;
+}
+#content .image_block {
+	text-align: left !important;
+}
+div.bComment, form.bComment {
+	border: none !important;
+}
+#bCalendarToday {
+	border: 1px solid #790000 !important;
+	background-color: #790000 !important;
+	color: #fff;
+}
+form.bComment .submit, form.bComment .preview, .compact_search_form .submit, #content .extended_search_form .submit {
+	color: #fff;
+	background-color: #790000;
+	border-radius: 0px !important;
+	border:1px solid #790000 !important;
+	cursor: pointer;
+}
+#content .extended_search_form .submit {
+	margin-left: 3px;
+}
+form.bComment .submit:hover, form.bComment .preview:hover, .compact_search_form .submit:hover, #content .extended_search_form .submit:hover {
+	opacity: 0.7;
+	background-color: #790000;
+	color: #fff;
+}
+blockquote p {
+	padding-top: 10px;
+	color: #790000;
+}
